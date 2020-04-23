@@ -1,0 +1,29 @@
+tags:
+  - k8s
+  - pod
+steady-state-hypothesis:
+  title: Pod Exists
+  probes:
+    -name: pod-exists
+    type: probe
+    tolerance: 1
+    provider:
+      type: python
+      function: count_pods
+      module: chaosk8s.pod.probes
+      arguments:
+        label_selector: app-go-demo-8
+        ns: go-demo-8
+method:
+  type: action
+  name: terminate-pod
+  provider:
+    type: python
+    module: chaosk8s.pod.actions
+    function: terminate_pods
+    arguments:
+      label_selector: app-go-demo-8
+      rand: true
+      ns: go-demo-8
+    pauses:
+      after: 10
