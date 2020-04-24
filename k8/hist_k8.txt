@@ -1,0 +1,1000 @@
+18731  kubectl get all
+18732  kubectl create -f deployment-definition.yml --record
+18733  kubectl rollout status deployment.apps/myapp-deploymenmt
+18734  kubectl rollout history deployment.apps/myapp-deploymenmt
+18735  vi deployment-definition.yml 
+18736  kubectl apply -f deployment-definition.yml 
+18737  kubectl rollout history deployment.apps/myapp-deploymenmt
+18738  kubectl rollout status deployment.apps/myapp-deploymenmt
+18739  kubectl rollout history deployment.apps/myapp-deploymenmt
+18740  kubectl describe deployment
+18741  vi deployment-definition.yml 
+18742  kubectl apply -f deployment-definition.yml 
+18743  kubectl describe deployment
+18744  kubectl rollout status deployment.apps/myapp-deploymenmt
+18745  kubectl describe deployment
+18746  kubectl get deployment
+18747  kubectl describe deployment
+18748  kubectl set image deployment/myapp-deploymenmt nginx-container=nginx:1.12-perl
+18749  kubectl set image deployment/myapp-deployment nginx-container=nginx:1.12-perl
+18750  kubectl describe deployment
+18751  kubectl get deployment
+18752  kubectl set image myapp-deploymenmt nginx-container=nginx:1.12-perl
+18753  kubectl get all
+18754  kubectl set image deployment.apps/myapp-deploymenmt nginx-container=nginx:1.12-perl
+18755  cat deployment-definition.yml 
+18756  kubectl set image deployment.apps/myapp-deploymenmt nginx-containers=nginx:1.12-perl
+18757  kubectl rollout status deployment.apps/myapp-deploymenmt
+18758  kubectl rollout history deployment.apps/myapp-deploymenmt
+18759  kubectl describe deployment
+18760  kubectl rollout history deployment.apps/myapp-deploymenmt
+18761  kubectl rollout undo deployment.apps/myapp-deploymenmt
+18762  kubectl rollout status deployment.apps/myapp-deploymenmt
+18763  kubectl rollout history deployment.apps/myapp-deploymenmt
+18764  kubectl describe deployment
+18765  vi deployment-definition.yml 
+18766  kubectl apply -f deployment-definition.yml 
+18767  kubectl rollout status deployment.apps/myapp-deploymenmt
+18768  kubectl get deployment
+18769  kubectl get pods
+18770  kubectl get deployment
+18771  kubectl get pods
+18772  kubectl rollout history deployment.apps/myapp-deploymenmt
+18773  kubectl rollout undo deployment.apps/myapp-deploymenmt
+18774  kubectl rollout status deployment.apps/myapp-deploymenmt
+18775  kubectl rollout history deployment.apps/myapp-deploymenmt
+18776  kubectl get pods
+18777  kubectl get pods -o wide
+18778  kubectl get pods
+18779  vim service-definition.yml
+18780  kubectl create -f service-definition.yml 
+18781  vim service-definition.yml
+18782  kubectl create -f service-definition.yml 
+18783  vim service-definition.yml
+18784  kubectl create -f service-definition.yml 
+18785  vim service-definition.yml
+18786  kubectl create -f service-definition.yml 
+18787  kubectl get service
+18788  kubectl delete service myapp-service
+18789  kubectl get service
+18790  kubectl get all
+18791  vim service-definition.yml 
+18792  kubectl create -f service-definition.yml 
+18793  kubectl get service
+18794  kubectl ger pods
+18795  kubectl get pods
+18796  kubectl get all
+18797  kubectl delete service service/myapp-service
+18798  kubectl delete service myapp-service
+18799  kubectl get all
+18800  kubectl delete deployment deployment.apps/myapp-deploymenmt
+18801  kubectl delete deployment myapp-deploymenmt
+18802  kubectl get all
+18803  kubectl get nodes
+18804  vim vapp-pod.yaml
+18805  kubectl create -f vapp-pod.yaml 
+18806  kubectl get pods
+18807  vi vser.yaml
+18808  kubectl create -f vser.yaml 
+18809  kubectl get service
+18810  kubectl get pods -o wide
+18811  kubectl get service
+18812  kubectl get pods -o wide
+18813  kubectl get service
+18814  sudo yum install git
+18815  sudo apt-get install git -y
+18816  git clone https://github.com/pillaimichael/myprep.git
+18817  cd myprep/k8/service/
+18818  ls
+18819  git get all
+18820  kubectl get all
+18821  kubectl get pods
+18822  'ls
+18823  ls
+18824  vi voting-app-service.yaml
+18825  kubectl get all
+18826  vi voting-app-service.yaml 
+18827  kubectl get services
+18828  kubectl delete service voting-service
+18829  kubectl get services
+18830  kubectl create -f vser.yaml 
+18831  kubectl create -f voting-app-service.yaml 
+18832  vi voting-app-service.yaml 
+18833  kubectl create -f voting-app-service.yaml 
+18834  kubectl get all
+18835  cd myprep/
+18836  git pull
+18837  kubectl get all
+18838  2~
+18839  cd k8/service/
+18840  ls
+18841  kubectl get all
+18842  kubectl delete pod/voting-app-pod
+18843  kubectl delete service/voting-service
+18844  kubectl get all
+18845  kubectl get pods
+18846  ls
+18847  ls *deployment*
+18848  ls *pod*
+18849  rm -f postgres-pod.yaml redis-pod.yaml result-app-pod.yaml voting-app-deployment.yml worker-app-deployment.yml
+18850  ls *pod*
+18851  rm -f voting-app-pod.yaml worker-app-pod.yaml
+18852  ls *pod*
+18853  ls
+18854  vi voting-app-deployment.yaml
+18855  vi worker-app-deployment.yaml
+18856  ls
+18857  kubectl create -f .
+18858  vi worker-app-deployment.yaml
+18859  vi result-app-deployment.yml 
+18860  kubectl create -f .
+18861  kubectl create -f result-app-deployment.yml 
+18862  kubectl get all
+18863  kubectl delete deployment.apps/result-app-deployment deployment.apps/voting-app-deployment deployment.apps/worker-app-deployment
+18864  kubectl get all
+18865  kubectl delete service/db service/kubernetes service/redis service/result-service service/voting-service
+18866  kubectl get all
+18867  kubectl create -f .
+18868  kubectl get all
+18869  kubectl descrive deployment
+18870  kubectl describe deployment
+18871  kubectl describe deployment | grep postgres
+18872  ls
+18873  kubectl get all
+18874  kubectl create -f postgres-deployment-yml 
+18875  kubectl get all
+18876  vi redis-service.yaml 
+18877  vi voting-app-service.yaml 
+18878  vi result-app-service.yaml 
+18879  kubectl delete service/result-service
+18880  kubectl create -f result-app-service.yaml 
+18881  kubectl get all
+18882  kubectl describe deployment
+18883  kubectl describe deployment--help
+18884  kubectl describe --help
+18885  kubectl get all
+18886  kubectl describe deployment.apps/postgres-deployment
+18887  kubectl describe pod/postgres-deployment-74d694c478-bzlhn
+18888  kubectl logs
+18889  kubectl logs pod/postgres-deployment-74d694c478-bzlhn
+18890  vi postgres-deployment-yml 
+18891  > postgres-deployment-yml 
+18892  vi postgres-deployment-yml 
+18893  kubectl get all
+18894  kubectl delete deployment.apps/postgres-deployment
+18895  kubectl get all
+18896  kubectl create -f postgres-deployment-yml 
+18897  kubectl get all
+18898  kubectl delete deployment.apps/worker-app-deployment
+18899  kubectl create -f worker-app-deployment.yaml 
+18900  kubectl get all
+18901  kubectl delete deployment.apps/postgres-deployment deployment.apps/result-app-deployment deployment.apps/voting-app-deployment deployment.apps/worker-app-deployment service/db service/redis service/result-service service/voting-service
+18902  kubectl get all
+18903  cd
+18904  wget https://github.com/istio/istio/releases/download/1.0.6/istio-1.0.6-linux.tar.gz
+18905  tar -zxvf istio-1.0.6-linux.tar.gz 
+18906  kubectl config set-context istoio --cluster=istio
+18907  kubectl config set-context istio --cluster=istio
+18908  kubectl config set-cluster istio --server=http://localhost:8080
+18909  kubectl config user-context istio
+18910  kubectl config use-context istio
+18911  export DOCKER_GATEWAY=172.28.0.1:
+18912  docker-compose -f install/consul/istio.yaml up -d
+18913  cd istio-1.0.6/
+18914  docker-compose -f install/consul/istio.yaml up -d
+18915  sudo netstat -ntpl
+18916  sed -i 's/9081/30080' samples/bookinfo/platform/consul/bookinfo.yaml
+18917  vi samples/bookinfo/platform/consul/bookinfo.yaml
+18918  d
+18919  cd
+18920  docker-compose -f ./istio-1.0.6/samples/bookinfo/platform/consul/bookinfo.yaml up -d
+18921  kubectl get all
+18922  cd .kube/
+18923  ls
+18924  vi config 
+18925  kubectl get all
+18926  cd
+18927  curl http://localhost:30080/productpage
+18928  kubectl get all
+18929  kubectl get pods
+18930  > .kube/config 
+18931  vim .kube/config 
+18932  kubectl get pods
+18933  kubectl get nodes
+18934  kubectl get all
+18935  python
+18936  scl
+18937  sudo yum update -y
+18938  sudo apt update
+18939  sudo apt install software-properties-common
+18940  sudo add-apt-repository ppa:deadsnakes/ppa
+18941  sudo apt update
+18942  sudo apt install python3.7
+18943  sudo apt install python3-pip
+18944  sudo pip3 install --upgrade pip
+18945  python --version
+18946  python3 --version
+18947  python3.7 --version
+18948  pip3 install -U chaostoolkit
+18949  chaos --help
+18950  cd .local/bin/
+18951  ls
+18952  cd
+18953  vim .bashrc
+18954  sudo vim /etc/profile
+18955  vim .bashrc 
+18956  source ~/.bashrc 
+18957  chaos
+18958  chaos --help
+18959  kubectl create namespace go-demo-8
+18960  git clone https://github.com/vfarcic/go-demo-8.git
+18961  cd go-demo-8/
+18962  ls
+18963  cat k8s/terminate-pods/pod.yaml 
+18964  kubectl create --namespace go-demo-8 -f k8s/terminate-pods/pod.yaml 
+18965  kubectl -n go-demo-8 get all
+18966  kubectl -n go-demo-8 get pods -o wide
+18967  pip3 install -U chaostoolkit-kubernetes
+18968  chas discover chaostoolkit-kubernetes
+18969  chaos discover chaostoolkit-kubernetes
+18970  cat discovery.json 
+18971  cat chaos/terminate-pod.yaml 
+18972  chaos run chaos/terminate-pod.yaml 
+18973  kubectl get pods
+18974  kubectl -n go-demo-8 get pods
+18975  kubectl -n go-demo-8 get all
+18976  chaos run chaos/terminate-pod-ssh.yaml 
+18977  echo $?
+18978  kubectl create --namespace go-demo-8 -f k8s/terminate-pods/pod.yaml 
+18979  chaos run chaos/terminate-pod-ssh.yaml 
+18980  kubectl -n go-demo-8 get all
+18981  kubectl create --namespace go-demo-8 -f k8s/terminate-pods/pod.yaml 
+18982  kubectl -n go-demo-8 get all
+18983  cd
+18984  source <(kubectl completion bash)
+18985  echo "source <(kubectl completion bash)" >> ~/.bashrc
+18986  alias k=kubectl
+18987  complete -F __start_kubectl k
+18988  cd -
+18989  vi chaos/terminate-pod-pause-m.yaml 
+18990  kubectl -n go-demo-8 get all
+18991  chaos run chaos/terminate-pod-pause-m.yaml
+18992  chaos run chaos/terminate-pod-pause.yaml
+18993  echo $?
+18994  kubectl create --namespace go-demo-8 -f k8s/terminate-pods/pod.yaml 
+18995  cd myprep/k8/service/
+18996  cd
+18997  cd go-demo-8/chaos/
+18998  ls
+18999  kubectl -n go-demo-8 get all
+19000  kubectl -n go-demo-8 describe pod/go-demo-8
+19001  cat terminate-pod-phase.yaml 
+19002  diff terminate-pod-pause.yaml terminate-pod-phase.yaml 
+19003  chaos run terminate-pod-phase.yaml 
+19004  kubectl -n go-demo-8 get pods
+19005  kubectl -n go-demo-8 get logs go-demo-8
+19006  kubectl -n go-demo-8 logs go-demo-8
+19007  kubectl create --namespace go-demo-8 -f ../k8s/db
+19008  kubectl -n go-demo-8 get all
+19009  kubectl -n go-demo-8 rollout status deployment go-demo-8-db
+19010  kubectl -n go-demo-8 describe deployment.apps/go-demo-8-db
+19011  kubectl -n go-demo-8 get pods
+19012  kubectl -n go-demo-8 logs pods go-demo-8-db-68cc74f9b6-4276w
+19013  kubectl -n go-demo-8 logs go-demo-8-db-68cc74f9b6-4276w
+19014  kubectl -n go-demo-8 logs go-demo-8
+19015  kubectl -n go-demo-8 logs go-demo-8-db-68cc74f9b6-4276w
+19016  kubectl -n go-demo-8 describe deployment.apps/go-demo-8-db
+19017  kubectl -n go-demo-8 rollout status deployment go-demo-8-db
+19018  kubectl -n go-demo-8 get all
+19019  kubectl -n go-demo-8 delete deployment.apps/go-demo-8-db
+19020  cd ..
+19021  cd chaos/
+19022  ls
+19023  cd ..
+19024  cd k8s/db/
+19025  ls
+19026  kubectl -n go-demo-8 create -f svc-standalone.yaml
+19027  kubectl -n go-demo-8 create -f pvc-standalone.yaml
+19028  kubectl -n go-demo-8 get all
+19029  cat svc-standalone.yaml
+19030  cat pvc-standalone.yaml 
+19031  kubectl -n go-demo-8 get all
+19032  ls
+19033  kubectl -n go-demo-8 create -f deployment-standalone.yaml
+19034  kubectl -n go-demo-8 get all
+19035  kubectl -n go-demo-8 describe deployment.apps/go-demo-8-db
+19036  kubectl -n go-demo-8 get pods
+19037  kubectl -n go-demo-8 logs go-demo-8-db-68cc74f9b6-p79d8
+19038  kubectl -n go-demo-8 logs go-demo-8
+19039  kubectl -n go-demo-8 logs go-demo-8-db-68cc74f9b6-p79d8
+19040  kubectl -n go-demo-8 describe pods 
+19041  docker container ls 
+19042  kubectl -n go-demo-8 get podsw
+19043  kubectl -n go-demo-8 get pods
+19044  kubectl exec -it go-demo-8-db-68cc74f9b6-p79d8 -n go-demo-8 -- bash
+19045  kubectl exec -it -n go-demo-8 go-demo-8-db-68cc74f9b6-p79d8 -- bash
+19046  kubectl -n go-demo-8 get all
+19047  kubectl exec -it -n go-demo-8 go-demo-8-db-68cc74f9b6-p79d8 -- bash
+19048  kubectl -n go-demo-8 get pods
+19049  kubectl -n go-demo-8 rollout status deployment go-demo-8-db
+19050  kubectl -n go-demo-8 delete deployment.apps/go-demo-8-db
+19051  kubectl -n go-demo-8 get all
+19052  kubectl -n go-demo-db delete service/go-demo-8-db
+19053  kubectl -n go-demo-8 get all
+19054  kubectl -n go-demo-8 delete service/go-demo-8-db
+19055  kubectl -n go-demo-8 get all
+19056  ls
+19057  cat deployment-standalone.yaml
+19058  ls
+19059  cat pvc-standalone.yaml
+19060  kubectl -n go-demo-8 get pvc
+19061  kubectl -n go-demo-8 delete  pvc go-demo-8-db
+19062  kubectl -n go-demo-8 get pvc
+19063  df -h
+19064  kubectl -n go-demo-8 create -f pvc-standalone.yaml 
+19065  kubectl -n go-demo-8 get pvc
+19066  kubectl -n go-demo-8 describe pvc
+19067  cat pvc-standalone.yaml 
+19068  ls
+19069  cat svc-standalone.yaml 
+19070  ls
+19071  cd ..
+19072  ls
+19073  cd app-db/
+19074  ls
+19075  cd ..
+19076  ls
+19077  cd db
+19078  ls
+19079  cat pvc-standalone.yaml 
+19080  vi sc.yaml
+19081  kubectl -n go-demo-8 create -f sc.yaml 
+19082  kubectl -n go-demo-8 get all
+19083  kubectl -n go-demo-8 get pvc
+19084  kubectl -n go-demo-8 delete pvc go-demo-8-db
+19085  kubectl -n go-demo-8 get pvc
+19086  vi pvc-standalone.yaml 
+19087  kubectl -n go-demo-8 create -f pvc-standalone.yaml 
+19088  kubectl -n go-demo-8 get pvc
+19089  kubectl -n go-demo-8 describe pvc
+19090  ls
+19091  kubectl -n go-demo-8 create -f svc-standalone.yaml
+19092  kubectl -n go-demo-8 create -f deployment-standalone.yaml
+19093  kubectl -n go-demo-8 get all
+19094  kubectl -n go-demo-8 rollout status deployment go-demo-8-db
+19095  kubectl -n go-demo-8 describe deployment
+19096  kubectl -n go-demo-8 describe pvc
+19097  cat pvc-standalone.yaml 
+19098  kubectl -n go-demo-8 get pvc -n default
+19099  kubectl -n go-demo-8 get pvc 
+19100  kubectl -n go-demo-8 delete pvc go-demo-8-db
+19101  kubectl -n go-demo-8 get storageclass
+19102  kubectl -n go-demo-8 delete storageclass standard
+19103  kubectl -n go-demo-8 get storageclass
+19104  ls
+19105  kubectl -n go-demo-8 get all
+19106  kubectl -n go-demo-8 delete deployment.apps/go-demo-8-db
+19107  kubectl -n go-demo-8 get all
+19108  ls
+19109  kubectl -n go-demo-8 create -f pvc-standalone.yaml 
+19110  kubectl -n go-demo-8 get pvc 
+19111  kubectl -n go-demo-8 describe pvc
+19112  kubectl -n go-demo-8 get pvc 
+19113  kubectl -n go-demo-8 delete pvc go-demo-8-db
+19114  ls
+19115  kubectl -n go-demo-8 create -f sc.yaml 
+19116  kubectl -n go-demo-8 create -f pvc-standalone.yaml 
+19117  kubectl -n go-demo-8 get pvc 
+19118  kubectl -n go-demo-8 describe pvc
+19119  kubectl -n go-demo-8 get all
+19120  kubectl -n go-demo-8 create -f deployment-standalone.yaml
+19121  kubectl -n go-demo-8 get all
+19122  vim deployment-standalone.yaml 
+19123  cd go-demo-8/
+19124  ls
+19125  kubectl -n go-demo-8 get all
+19126  kubectl -n go-demo-8 delete pod/go-demo-8
+19127  kubectl -n go-demo-8 get all
+19128  kubectl -n go-demo-8 get pvc
+19129  kubectl -n go-demo-8 get storageclass
+19130  kubectl -n go-demo-8 describe storageclass
+19131  ls
+19132  cd k8s/db/
+19133  ls
+19134  cat deployment-standalone.yaml
+19135  cd ..
+19136  kubectl delete namespace go-demo-8
+19137  git pull
+19138  kubectl create namespace go-demo-8
+19139  cat k8s/terminate-pods/app/*
+19140  kubectl --namespace go-demo-8     apply --filename k8s/terminate-pods/app
+19141  kubectl --namespace go-demo-8 get all
+19142  kubectl --namespace go-demo-8 get pvc
+19143  kubectl describe pvc
+19144  kubectl -n go-demo-8 describe pvc
+19145  sudo mkdir /mnt/data
+19146  sudo sh -c "echo 'Hello from Kubernetes storage' > /mnt/data/index.html"
+19147  cat /mnt/data/index.html
+19148  vi pv.yaml
+19149  kubectl -n go-deo-8 apply pv.yaml 
+19150  kubectl -n go-deo-8 apply -f pv.yaml 
+19151  vim k8s/db/pvc-standalone.yaml
+19152  kubectl -n go-demo-8 get all
+19153  kubectl -n go-demo-8 delete deployment.apps/go-demo-8 deployment.apps/go-demo-8-db
+19154  kubectl -n go-demo-8 get all
+19155  kubectl -n go-demo-8 apply -f pv.yaml 
+19156  ls
+19157  vi k8s/db/pvc-standalone.yaml 
+19158  kubectl -n go-demo-8 apply -f k8s/db/pvc-standalone.yaml 
+19159  vi k8s/db/pvc-standalone.yaml 
+19160  kubectl -n go-demo-6 get pv
+19161  kubectl -n go-deo-6 get pv
+19162  kubectl -n go-deo-8 get pv
+19163  kubectl get pv
+19164  kubectl get pvc
+19165  vi k8s/db/pvc-standalone.yaml
+19166  kubectl -n go-demo-8 get all
+19167  kubectl -n go-demo-8 get pvc
+19168  kubectl -n go-demo-8 delete pvc go-demo-8-db
+19169  kubectl -n go-demo-8 get pvc
+19170  kubectl -n go-demo-8 apply -f k8s/db/pvc-standalone.yaml 
+19171  kubectl -n go-demo-8 get pvc
+19172  kubectl -n go-demo-8 delete service/go-demo-8-db
+19173  cd k8s/terminate-pods/app
+19174  ls
+19175  vim pvc-standalone.yaml
+19176  cp ../../db/pvc-standalone.yaml ,
+19177  cd ..
+19178  kubectl -n go-demo-8 get pvc
+19179  kubectl -n go-demo-8 delete pvc go-demo-8-db
+19180  kubectl --namespace go-demo-8 get all
+19181  kubectl --namespace go-demo-8 apply --filename k8s/terminate-pods/app
+19182  kubectl --namespace go-demo-8 get all
+19183  kubectl -n go-demo-8 get pvc
+19184  vi k8s/terminate-pods/app/pvc-standalone.yaml 
+19185  kubectl -n go-demo-8 get all
+19186  kubectl -n go-demo-8 delete deployment.apps/go-demo-8 deployment.apps/go-demo-8-db service/go-demo-8-db
+19187  kubectl -n go-demo-8 get all
+19188  cat k8s/db/pvc-standalone.yaml
+19189  cp k8s/db/pvc-standalone.yaml k8s/terminate-pods/app/pvc-standalone.yaml
+19190  vi k8s/terminate-pods/app/pvc-standalone.yaml
+19191  kubectl -n go-demo-8 get pvc
+19192  kubectl -n go-demo-8 delete pvc go-demo-8-db
+19193  kubectl -n go-demo-8 get pvc
+19194  kubectl --namespace go-demo-8 apply --filename k8s/terminate-pods/app
+19195  kubectl -n go-demo-8 get pvc
+19196  kubectl -n go-demo-8 get pv
+19197  kubectl -n go-demo-8 delete pv task-pv-volume
+19198  kubectl -n go-demo-8 get pvc
+19199  kubectl -n go-demo-8 delete pvc go-demo-8-db
+19200  kubectl -n go-demo-8 get all
+19201  kubectl -n go-demo-8 delete service/go-demo-8-db deployment.apps/go-demo-8 deployment.apps/go-demo-8-db
+19202  kubectl -n go-demo-8 get all
+19203  ls
+19204  kubectl -n go-demo-8 apply -f pv.yaml 
+19205  kubectl -n go-demo-8 get pv
+19206  kubectl --namespace go-demo-8 apply --filename k8s/terminate-pods/app
+19207  kubectl -n go-demo-8 get pvc
+19208  kubectl -n go-demo-8 get all
+19209  chaos run chaos/terminate-pod-phase.yaml
+19210  kubectl -n go-demo-8 get all
+19211  chaos run chaos/terminate-pod-phase.yaml
+19212  kubectl -n go-demo-8 get all
+19213  kubectl -n go-demo-8 describe deployment.apps/go-demo-8-db
+19214  kubectl -n go-demo-8 get all
+19215  kubectl -n go-demo-8 logs pod/go-demo-8-db-68cc74f9b6-5254r
+19216  sudo ls -l /
+19217  chown -R root:docker /mnt/data/
+19218  sudo chown -R root:docker /mnt/data/
+19219  kubectl -n go-demo-8 logs pod/go-demo-8-db-68cc74f9b6-5254r
+19220  kubectl get po
+19221  cat pv.yaml 
+19222  vi k8s/terminate-pods/app/deployment-standalone.yaml
+19223  kubectl -n go-demo-8 get all
+19224  kubectl -n go-demo-8 delete service/go-demo-8-db deployment.apps/go-demo-8 deployment.apps/go-demo-8-db
+19225  kubectl -n go-demo-8 get pvc
+19226  kubectl -n go-demo-8 delete pvc go-demo-8-db
+19227  kubectl -n go-demo-8 get pv
+19228  kubectl -n go-demo-8 delete pv task-pv-volume
+19229  kubectl -n go-demo-8 get pv
+19230  kubectl -n go-demo-8 get all
+19231  vi pv.yaml 
+19232  mkdir /tmp/data
+19233  vi pv.yaml 
+19234  kubectl -n go-demo-8 apply -f pv.yaml 
+19235  kubectl -n go-demo-8 get pv
+19236  vi k8s/terminate-pods/app/pvc-standalone.yaml
+19237  vi k8s/terminate-pods/app/deployment-standalone.yaml 
+19238  kubectl --namespace go-demo-8 apply --filename k8s/terminate-pods/app
+19239  kubectl -n go-demo-8 get all
+19240  chaos run chaos/terminate-pod-phase.yaml
+19241  kubectl -n go-demo-8 get all
+19242  chaos run chaos/terminate-pod-phase.yaml
+19243  kubectl -n go-demo-8 get all
+19244  chaos run chaos/terminate-pod-phase.yaml
+19245  kubectl -n go-demo-8 get all
+19246  kubectl --namespace go-demo-8     get ingress
+19247  cd go-demo-8/
+19248  kubectl apply     --filename https://raw.githubusercontent.com/kubernetes/ingress-nginx/nginx-0.27.0/deploy/static/mandatory.yaml
+19249  kubectl apply     --filename https://raw.githubusercontent.com/kubernetes/ingress-nginx/nginx-0.27.0/deploy/static/provider/cloud-generic.yaml
+19250  export INGRESS_HOST=$(kubectl \
+19251      --namespace ingress-nginx \
+19252      get service ingress-nginx \
+19253      --output jsonpath="{.status.loadBalancer.ingress[0].hostname}")
+19254  echo $INGRESS_HOST
+19255  export INGRESS_HOST=$(kubectl \
+19256      --namespace ingress-nginx \
+19257      get service ingress-nginx \
+19258      --output jsonpath="{.status.loadBalancer.ingress[0].hostname}")
+19259  echo $INGRESS_HOST
+19260  kubectl --namespace ingress-nginx get all
+19261  kubectl --namespace ingress-nginx get service ingress-nginx 
+19262  kubectl --namespace ingress-nginx get service ingress-nginx  --output
+19263  kubectl --namespace ingress-nginx get service ingress-nginx  --output --help
+19264  kubectl --namespace ingress-nginx get service ingress-nginx  
+19265  kubectl --namespace ingress-nginx get all
+19266  kubectl get all
+19267  kubectl -n ingress-nginx get all
+19268  kubectl -n ingress-nginx delete deployment.apps/nginx-ingress-controller
+19269  kubectl -n ingress-nginx get all
+19270  kubectl -n ingress-nginx delete service/ingress-nginx
+19271  kubectl delete  namespace ingress-nginx
+19272  kubectl --filename https://raw.githubusercontent.com/kubernetes/ingress-nginx/nginx-0.27.0/deploy/static/mandatory.yaml
+19273  kubectl apply --filename https://raw.githubusercontent.com/kubernetes/ingress-nginx/nginx-0.27.0/deploy/static/mandatory.yaml
+19274  kubectl -n ingress-nginx get all
+19275  kubectl -n ingress-nginx logs pod/nginx-ingress-controller-cc6db5d84-l7wls
+19276  kubectl -n ingress-nginx rollout status deployment nginx-ingress-controller
+19277  kubectl -n ingress-nginx get service
+19278  kubectl -n ingress-nginx apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/nginx-0.27.0/deploy/static/provider/cloud-generic.yaml
+19279  kubectl -n ingress-nginx get all
+19280  kubectl --namespace ingress-nginx describe service
+19281  kubectl --namespace ingress-nginx get service ingress-nginx     --output jsonpath="{.status.loadBalancer.ingress[0].hostname}")
+19282  kubectl --namespace ingress-nginx get service ingress-nginx     --output jsonpath="{.status.loadBalancer.ingress[0].hostname}"
+19283  kubectl --namespace ingress-nginx get service ingress-nginx     --output json
+19284  kubectl --namespace ingress-nginx describe service
+19285  kubectl -n ingress-nginx get all
+19286  kubectl patch svc ingress-nginx -n ingress-nginx '{"spec": {"type": "LoadBalancer", "externalIPs":["35.154.192.158"]}}'
+19287  kubectl patch svc ingress-nginx -n ingress-nginx '{"spec": {"type": "LoadBalancer", "externalIPs":["35.154.192.158"]}}
+19288  '
+19289  kubectl patch --help
+19290  kubectl -n ingress-nginx patch service ingress-nginx '{"spec": {"type": "LoadBalancer", "externalIPs":["35.154.192.158"]}}'
+19291  kubectl -n ingress-nginx patch svc ingress-nginx '{"spec": {"type": "LoadBalancer", "externalIPs":["35.154.192.158"]}}'
+19292  kubectl delete namespace ingress-nginx
+19293  kubectl -n ingress-nginx get all
+19294  kubectl delete namespace ingress-nginx
+19295  kubectl get namespace
+19296  kubectl -n ingress-nginx get all
+19297  kubectl get namespace
+19298  kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/deploy/static/provider/baremetal/deploy.yaml
+19299  kubectl get namespace
+19300  kubectl -n ingress-nginx get all
+19301  kubectl -n ingress-nginx logs pod/ingress-nginx-controller-847f9587f9-vsbpr
+19302  kubectl -n ingress-nginx get all
+19303  kubectl -n ingress-nginx rollout status deployment nginx-ingress-controller
+19304  kubectl -n ingress-nginx rollout status deployment ingress-nginx-controller
+19305  kubectl -n ingress-nginx describe deployment
+19306  kubectl get namespace
+19307  kubectl -n get all
+19308  kubectl -n ingress-nginx get all
+19309  kubectl -n ingress-nginx logs pod/ingress-nginx-controller-847f9587f9-vsbpr
+19310  kubectl get ing -n ingress-nginx
+19311  kubectl get deploy -n ingress-nginx
+19312  kubectl edit deploy -n ingress-nginx ingress-nginx-controller
+19313  kubectl -n ingress-nginx logs pod/ingress-nginx-controller-847f9587f9-vsbpr
+19314  kubectl -n ingress-nginx logs deployment.apps/ingress-nginx-controller
+19315  kubectl delete ingress-nginx
+19316  kubectl delete namespace ingress-nginx
+19317  wget https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/deploy/static/provider/baremetal/deploy.yaml
+19318  vim deploy.yaml 
+19319  history
+19320  kubectl apply -f deploy.yaml 
+19321  vi deploy.yaml 
+19322  kubectl delete namespace ingress-nginx
+19323  kubectl apply -f deploy.yaml 
+19324  kubectl delete namespace ingress-nginx
+19325  vim deploy.yaml 
+19326  kubectl apply -f deploy.yaml 
+19327  kubectl -n ingress-nginx logs deployment.apps/ingress-nginx-controller
+19328  kubectl -n ingress-nginx get all
+19329  kubectl -n ingress-nginx logs pod/ingress-nginx-admission-patch-p98z4
+19330  kubectl -n ingress-nginx logs pod/ingress-nginx-admission-create-rmghr
+19331  kubectl -n ingress-nginx logs pod/ingress-nginx-admission-patch-p98z4
+19332  kubectl -n ingress-nginx get all
+19333  kubectl -n ingress-nginx logs pod/ingress-nginx-controller-7b5f5f4957-pkjw9
+19334  kubectl -n ingress-nginx get all
+19335  kubectl -n ingress-nginx logs pod/ingress-nginx-admission-create-rmghr
+19336  kubectl -n ingress-nginx get all
+19337  kubectl get pods -n ingress-nginx   -l app.kubernetes.io/name=ingress-nginx --watch
+19338  POD_NAMESPACE=ingress-nginx
+19339  POD_NAME=$(kubectl get pods -n $POD_NAMESPACE -l app.kubernetes.io/name=ingress-nginx -o jsonpath='{.items[0].metadata.name}'
+19340  POD_NAME=$(kubectl get pods -n $POD_NAMESPACE -l app.kubernetes.io/name=ingress-nginx -o jsonpath='{.items[0].metadata.name}')
+19341  kubectl exec -it $POD_NAME -n $POD_NAMESPACE -- /nginx-ingress-controller --version
+19342  kubectl get pods -n $POD_NAMESPACE -l app.kubernetes.io/name=ingress-nginx -o json
+19343  POD_NAME=$(kubectl get pods -n $POD_NAMESPACE -l app.kubernetes.io/name=ingress-nginx -o jsonpath='{.items[2].metadata.name}')
+19344  echo $POD_NAME
+19345  kubectl exec -it $POD_NAME -n $POD_NAMESPACE -- /nginx-ingress-controller --version
+19346  kubectl -n ingress-nginx get all
+19347  wget https://raw.githubusercontent.com/kubernetes/ingress-nginx/nginx-0.27.0/deploy/static/provider/cloud-generic.yaml
+19348  vi cloud-generic.yaml 
+19349  kubectl apply -f cloud-generic.yaml 
+19350  kubectl -n ingress-nginx get service ingress-nginx
+19351  kubectl -n ingress-nginx get service ingress-nginx -o json
+19352  vi deploy.yaml 
+19353  kubectl delete namespace ingress-nginx
+19354  kubectl -n ingress-nginx get all
+19355  kubectl apply -f deploy.yaml 
+19356  kubectl -n ingress-nginx get all
+19357  kubectl -n ingress-nginx get pods
+19358  kubectl -n ingress-nginx get pods -o wide
+19359  kubectl get ingress
+19360  kubectl -n ingress-nginx get ingress
+19361  kubectl -n ingress-nginx get ing
+19362  kubectl delete namespace ingress-nginx
+19363  kubectl edit configmap -n kube-system kube-proxy
+19364  kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.9.3/manifests/namespace.yaml
+19365  kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.9.3/manifests/metallb.yaml
+19366  kubectl -n metallb-system get all
+19367  kubectl -n metallb-system logs pod/speaker-fccxw
+19368  kubectl create secret generic -n metallb-system memberlist --from-literal=secretkey="$(openssl rand -base64 128)"
+19369  kubectl -n metallb-system get all
+19370  kubectl get node
+19371  kubectl get node -o wide
+19372  vim metallb-configmap.yaml
+19373  kubectl apply -f metallb-configmap.yaml
+19374  vim metallb-configmap.yaml
+19375  kubectl apply -f metallb-configmap.yaml
+19376  kubectl -n get all
+19377  kubectl get namespac
+19378  kubectl get namespace
+19379  kubectl -n metallb-system get all
+19380  kubectl get node -o wide
+19381  vi deploy.yaml 
+19382  vi cloud-generic.yaml 
+19383  kubectl apply -f deploy.yaml 
+19384  kubectl -n ingress-nginx get all
+19385  kubectl delete namespace ingress-nginx
+19386  kubectl get config
+19387  kubectl get configmap
+19388  vi metallb-configmap.yaml 
+19389  kubectl -n metallb-system get configmap
+19390  kubectl -n metallb-system delete config
+19391  kubectl -n metallb-system delete configmap config
+19392  kubectl -f apply  metallb-configmap.yaml 
+19393  kubectl apply  -f metallb-configmap.yaml 
+19394  kubectl -n metallb-system get all
+19395  kubectl apply -f deploy.yaml 
+19396  kubectl -n ingress-nginx get all
+19397  kubectl delete namespace ingress-nginx
+19398  vi metallb-configmap.yaml 
+19399  kubectl -n metallb-system get configmap
+19400  kubectl -n metallb-system delete configmap config
+19401  kubectl apply  -f metallb-configmap.yaml 
+19402  kubectl -n metallb-system get all
+19403  kubectl apply -f deploy.yaml 
+19404  kubectl -n ingress-nginx get all
+19405  curl -D http://13.233.106.109:32518
+19406  curl -s http://13.233.106.109:32518
+19407  curl -s http://13.233.106.109
+19408  vi deploy.yaml 
+19409  ls
+19410  kubectl apply -f cloud-generic.yaml 
+19411  kubectl -n ingress-nginx get all
+19412  kubectl     --namespace ingress-nginx     get service ingress-nginx     --output jsonpath="{.status.loadBalancer.ingress[0].hostname}"
+19413  kubectl -n ingress-nginx get service ingress-nginx -o json
+19414  export INGRESS_HOST=13.233.106.110
+19415  kubectl --namespace go-demo-8 get all
+19416  kubectl --namespace go-demo-8     apply --filename k8s/health/ingress.yaml
+19417  cd go-demo-8/
+19418  kubectl --namespace go-demo-8     apply --filename k8s/health/ingress.yaml
+19419  kubectl --namespace go-demo-8 get all
+19420  cat k8s/health/ingress.yaml
+19421  vim
+19422  vim k8s/health/ingress.yaml
+19423  kubectl --namespace go-demo-8 get all
+19424  kubectl --namespace go-demo-8 delete service/go-demo-8
+19425  kubectl --namespace go-demo-8     apply --filename k8s/health/ingress.yaml
+19426  kubectl --namespace go-demo-8 get all
+19427  curl -H "Host: go-demo-8.acme.com"     "http://$INGRESS_HOST"
+19428  cat chaos/health
+19429  cat chaos/health.yaml 
+19430  kubectl --namespace go-demo-8 get all
+19431  chaos run chaos/health.yaml 
+19432  kubectl --namespace go-demo-8 get all
+19433  vi chaos/health.yaml 
+19434  vi chaos/terminate-pod-pause
+19435  vi chaos/terminate-pod-pause.yaml 
+19436  vi chaos/health.yaml 
+19437  vi chaos/terminate-pod-pause.yaml 
+19438  vi chaos/health.yaml 
+19439  kubectl --namespace go-demo-8 get all
+19440  chaos run chaos/health.yaml 
+19441  vi chaos/health.yaml 
+19442  vi chaos/terminate-pod-pause.yaml 
+19443  vi chaos/health.yaml 
+19444  cat chaos/terminate-pod-pause.yaml
+19445  vi chaos/health.yaml 
+19446  chaos run chaos/health.yaml 
+19447  chaos run chaos/health-http.yaml 
+19448  kubectl --namespace go-demo-8 get all
+19449  cat chaos/health-http.yaml 
+19450  curl -H "Host: go-demo-8.acme.com"     "http://$INGRESS_HOST/demo/person"
+19451  curl -H "Host: go-demo-8.acme.com"     "http://$INGRESS_HOST"
+19452  curl -s -H "Host: go-demo-8.acme.com"     "http://$INGRESS_HOST"
+19453  cat chaos/health-http.yaml 
+19454  cat k8s/health/hpa.yaml 
+19455  k
+19456  kubectl -n go-demo-8 apply -f k8s/health/hpa.yaml 
+19457  kubectl -n go-demo-8 get hpa
+19458  kubectl -n go-demo-8 get all
+19459  chaos run chaos/health-http.yaml 
+19460  kubectl -n go-demo-8 get all
+19461  chaos run chaos/health-http.yaml 
+19462  vi chaos/health-http.yaml
+19463  chaos run chaos/health-http.yaml 
+19464  chaos run chaos/health-db.yaml 
+19465  kubectl -n go-demo-8 get all
+19466  chaos run chaos/health-db.yaml 
+19467  vim chaos/health-db.yaml
+19468  chaos run chaos/health-db.yaml 
+19469  vim chaos/health-db.yaml
+19470  kubectl -n go-demo-8 get all
+19471  vi chaos/health-db.yaml
+19472  chaos run chaos/health-db.yaml 
+19473  kubectl -n go-demo-8 get all
+19474  chaos run chaos/health-db.yaml 
+19475  kubectl -n go-demo-8 get all
+19476  curl -H "Host: go-demo-8.acme.com"     "http://$INGRESS_HOST/demo/person"
+19477  curl -H "Host: go-demo-8.acme.com"     "http://$INGRESS_HOST/demo"
+19478  curl -H "Host: go-demo-8.acme.com"     "http://$INGRESS_HOST/"
+19479  cd
+19480  kubectl delete namespace go-demo-8
+19481  kubectl get nodes
+19482  cd go-demo-8/
+19483  kubectl -n ingress-nginx get all
+19484  kubectl delete namespace ingress-nginx
+19485  istioctl manifest apply     --skip-confirmation
+19486  curl -sL https://istio.io/downloadIstioctl | sh -
+19487  export PATH=$PATH:$HOME/.istioctl/bin
+19488  istioctl proxy-status
+19489  istioctl manifest apply     --skip-confirmation
+19490  kubectl --namespace istio-system get service istio-ingressgateway
+19491  export INGRESS_HOST=127.0.0.1
+19492  kubectl --namespace istio-system get service istio-ingressgateway
+19493  kubectl --namespace istio-system get service istio-ingressgateway -o json
+19494  export INGRESS_HOST=13.233.106.109
+19495  gitpull
+19496  git pull
+19497  kubectl create namespace go-demo-8
+19498  kubectl label namespace go-demo-8 istio-injection=enabled
+19499  kubectl --namespace go-demo-8 apply --filename k8s/health/app/
+19500  kubectl --namespace go-demo-8     rollout status deployment go-demo-8
+19501  kubectl --namespace go-demo-8 get all
+19502  cd  k8s/health/app/
+19503  ls
+19504  vim deployment-db.yaml
+19505  vim ../../db/deployment-standalone.yaml
+19506  ls
+19507  diff ../../db/deployment-standalone.yaml deployment-db.yaml
+19508  diff ../../db/pvc-standalone.yaml pvc-db.yaml 
+19509  cd
+19510  kubectl get pv
+19511  kubectl get pvc
+19512  kubectl -n go-demo-8 get pvc
+19513  ls
+19514  cd
+19515  cd go-demo-8/
+19516  ls
+19517  cat pv.yaml 
+19518  kubectl -n go-demo-8 get pv
+19519  cd /tmp//dat
+19520  cd /tmp//data
+19521  mkdir /tmp/data
+19522  kubectl -n go-demo-8 get pv
+19523  kubectl -n go-demo-8 delete pv task-pv-volume
+19524  kubectl -n go-demo-8 create -f pv.yaml 
+19525  kubectl -n go-demo-8 get pv
+19526  vi k8s/health/app/pvc-db.yaml 
+19527  cp ../../db/pvc-standalone.yaml pvc-db.yaml
+19528  cp k8s/db/pvc-standalone.yaml k8s/health/app/pvc-db.yaml
+19529  cat k8s/health/app/pvc-db.yaml
+19530  vim k8s/health/app/pvc-db.yaml
+19531  cat pv.yaml 
+19532  vim k8s/health/app/pvc-db.yaml
+19533  kubectl --namespace go-demo-8 get all
+19534  kubectl delete namespace go-demo-8
+19535  kubectl get pv
+19536  kubectl create namespace go-demo-8
+19537  kubectl label namespace go-demo-8     istio-injection=enabled
+19538  kubectl --namespace go-demo-8 apply --filename k8s/health/app/
+19539  kubectl --namespace go-demo-8 get all
+19540  cd k8s/app/
+19541  ls
+19542  cd -
+19543  kubectl --namespace go-demo-8 get all
+19544  cd k8s/health/app/
+19545  ls
+19546  cat service-app.yaml
+19547  cat service-db.yaml
+19548  kubectl --namespace go-demo-8     rollout status deployment go-demo-8
+19549  kubectl --namespace go-demo-8 get all
+19550  kubectl --namespace go-demo-8 get deployment.apps/go-demo-8-db
+19551  kubectl --namespace go-demo-8 logs deployment.apps/go-demo-8-db
+19552  kubectl --namespace go-demo-8 describe deployment.apps/go-demo-8-db
+19553  kubectl --namespace go-demo-8 get pvc
+19554  kubectl --namespace go-demo-8 logs go-demo-8-db
+19555  kubectl --namespace go-demo-8 describe  pvc/go-demo-8-db
+19556  kubectl --namespace go-demo-8 get pv
+19557  kubectl --namespace go-demo-8 get all
+19558  kubectl delete namespace go-demo-8
+19559  kubectl --namespace go-demo-8 get pvc
+19560  kubectl  get pvc
+19561  kubectl  get pv
+19562  cd go-demo-8/
+19563  ls
+19564  kubectl create namespace go-demo-8
+19565  kubectl label namespace go-demo-8     istio-injection=enabled
+19566  cd k8s/health/app/
+19567  ls
+19568  cat pvc-db.yaml
+19569  kubectl -n go-demo-8 apply -f pvc-db.yaml
+19570  kubectl -n go-demo-8 get pvc
+19571  kubectl -n go-demo-8 logs pvc/go-demo-8-db
+19572  kubectl -n go-demo-8 describe pvc/go-demo-8-db
+19573  ls
+19574  kubectl -n go-demo-8 apply -f deployment-db.yaml
+19575  kubectl -n go-demo-8 get all
+19576  kubectl -n go-demo-8 get deployment.apps/go-demo-8-db
+19577  kubectl -n go-demo-8 describe deployment.apps/go-demo-8-db
+19578  kubectl -n go-demo-8 get all
+19579  ls
+19580  kubectl -n go-demo-8 apply -f service-db.yaml
+19581  kubectl -n go-demo-8 get all
+19582  ls
+19583  kubectl -n go-demo-8 rollout status deployment go-demo-8-db
+19584  kubectl -n go-demo-8 describe pvc/go-demo-8-db
+19585  kubectl -n go-demo-8 get pvc
+19586  kubectl -n go-demo-8 delete pvc go-demo-8-db
+19587  history | grep apply
+19588  history | grep apply | grep pvc
+19589  cd
+19590  cd go-demo-8/
+19591  kubectl -n go-demo-8 apply -f k8s/db/pvc-standalone.yaml
+19592  kubectl -n go-demo-8 get pvc
+19593  kubectl -n go-demo-8 get all
+19594  kubectl -n go-demo-8 delete deployment.apps/go-demo-8-db
+19595  kubectl -n go-demo-8 get all
+19596  kubectl -n go-demo-8 delete service/go-demo-8-db
+19597  kubectl -n go-demo-8 get all
+19598  kubectl -n go-demo-8 get pvc
+19599  kubectl -n go-demo-8 apply -f k8s/db/deployment-standalone.yaml 
+19600  kubectl -n go-demo-8 get pvc
+19601  kubectl -n go-demo-8 get all
+19602  vi k8s/db/deployment-standalone.yaml
+19603  diff k8s/db/deployment-standalone.yaml k8s/health/app/deployment-db.yaml
+19604  history
+19605  kubectl -n go-demo-8 get storageclass
+19606  ls
+19607  cd
+19608  cd go-demo-8/
+19609  cd k8s/db/
+19610  ls
+19611  cat sc.yaml 
+19612  kubectl -n go-demo-8 describe storageclass
+19613  history | grep pv
+19614  history | grep -w pv
+19615  history 
+19616  cd ../..
+19617  kubectl delete namespace go-demo-8
+19618  kubectl create namespace go-demo-8
+19619  kubectl get storageclass
+19620  kubectl get pv
+19621  ls
+19622  kubectl -n go-demo-8  apply -f k8s/terminate-pods/app/pvc-standalone.yaml 
+19623  kubectl -n go-demo-8 get pvc
+19624  cat k8s/terminate-pods/app/deployment.yaml 
+19625  cat k8s/terminate-pods/app/deployment-standalone.yaml 
+19626  kubectl -n go-demo-8  apply -f k8s/terminate-pods/app/deployment-standalone.yaml 
+19627  kubectl -n go-demo-8 get all
+19628  kubectl -n go-demo-8 get pvc
+19629  diff k8s/terminate-pods/app/deployment-standalone.yaml k8s/health/app/deployment-db.yaml
+19630  kubectl -n go-demo-8 get pvc
+19631  kubectl delete namespace go-demo-8
+19632  kubectl -n go-demo-8 get pv
+19633  kubectl -n go-demo-8 delete pv task-pv-volume
+19634  kubectl -n go-demo-8 get pv
+19635  kubectl -n go-demo-8 get pvc
+19636  kubectl -n go-demo-8 get all
+19637  history
+19638  kubectl -n go-demo-8 get all
+19639  kubectl get namespace
+19640  kubectl -n go-demo-8 get pv
+19641  cd go-demo-8/
+19642  kubectl create namespace go-demo-8
+19643  ls
+19644  kubectl -n go-demo-8 apply -f pv.yaml
+19645  kubectl -n go-demo-8 get pv
+19646  vi k8s/health/app/deployment-db.yaml
+19647  vi k8s/health/app/pvc-db.yaml 
+19648  kubectl label namespace go-demo-8     istio-injection=enabled
+19649  kubectl --namespace go-demo-8 apply --filename k8s/health/app/
+19650  kubectl -n go-demo-8 get all
+19651  kubectl -n go-demo-8 get pvc
+19652  kubectl -n go-demo-8 get all
+19653  kubectl -n go-demo-8 get pv
+19654  kubectl -n go-demo-8 get pvc
+19655  kubectl -n go-demo-8 delete deployment.apps/go-demo-8-db deployment.apps/go-demo-8
+19656  kubectl -n go-demo-8 get all
+19657  kubectl -n go-demo-8 delete service/go-demo-8 service/go-demo-8-db horizontalpodautoscaler.autoscaling/go-demo-8
+19658  kubectl -n go-demo-8 get all
+19659  kubectl -n go-demo-8 get pvc
+19660  cd k8s/health/app/
+19661  ls
+19662  kubectl -n go-demo-8 apply -f deployment-db.yaml
+19663  kubectl -n go-demo-8 get all
+19664  ls
+19665  diff deployment-db.yaml ../../../k8s/terminate-pods/app/deployment-standalone.yaml
+19666  kubectl -n go-demo-8 get all
+19667  kubectl delete namespace go-demo-8
+19668  kubectl create namespace go-demo-8
+19669  kubectl -n go-demo-8 get pvc
+19670  kubectl -n go-demo-8 get pv
+19671  ccd
+19672  cd 
+19673  cd go-demo-8/
+19674  ls
+19675  kubectl -n go-demo-8 get pv
+19676  kubectl -n go-demo-8 get pvc
+19677  kubectl -n go-demo-8 apply -f k8s/health/app/pvc-db.yaml
+19678  kubectl -n go-demo-8 get pvc
+19679  kubectl -n go-demo-8 apply -f k8s/health/app/deployment-db.yaml
+19680  kubectl -n go-demo-8 get all
+19681  kubectl -n go-demo-8 apply -f k8s/health/app/deployment-db.yaml
+19682  kubectl -n go-demo-8 get all
+19683  kubectl -n go-demo-8 delete deployment.apps/go-demo-8-db
+19684  kubectl -n go-demo-8 get all
+19685  kubectl label namespace go-demo-8     istio-injection=enabled
+19686  kubectl -n go-demo-8 apply -f k8s/health/app/deployment-db.yaml
+19687  kubectl -n go-demo-8 get all
+19688  echo $INGRESS_HOST
+19689  kubectl --namespace istio-system     get service istio-ingressgateway
+19690  kubectl delete namespace istio-system
+19691  kubectl delete     --filename https://raw.githubusercontent.com/kubernetes/ingress-nginx/nginx-0.27.0/deploy/static/provider/cloud-generic.yaml
+19692  kubectl delete     --filename https://raw.githubusercontent.com/kubernetes/ingress-nginx/nginx-0.27.0/deploy/static/mandatory.yaml
+19693  istioctl manifest apply --skip-confirmation
+19694  history | grep istio
+19695  curl -sL https://istio.io/downloadIstioctl | sh -
+19696  export PATH=$PATH:$HOME/.istioctl/bin
+19697  istioctl verify-install
+19698  apt-mark unhold kubeadm
+19699  sudo apt-mark unhold kubeadm
+19700  apt-get update && apt-get install -y kubeadm
+19701  sudo apt-get update && apt-get install -y kubeadm
+19702  sudo apt-get install -y kubeadm
+19703  sudo apt-get install -y kubeadm=1.18.x-00
+19704  cd
+19705  cd myprep/'
+19706  cd myprep/
+19707  ls
+19708  cd k8/
+19709  history >> hist_k8.txt
+19710  vi hist_k8.txt 
+19711  git add .
+19712  cd ..
+19713  git add .
+19714  git commit -m "msd"
+19715  git config --global user.email "pillai.michael@gmail.com"
+19716  git config --global user.name "Michael Pillai"
+19717  git commit -m "msd"
+19718  git push
+19719  git pull
+19720  cd k8/service/
+19721  rm -f postgres-deployment-yml 
+19722  cd ../
+19723  cd ..
+19724  git pull
+19725  cd ..
+19726  rm -rf myprep/
+19727  git clone https://github.com/pillaimichael/myprep.git
+19728  cd myprep/
+19729  cd k8/
+19730  history >> hist_k8.txt
